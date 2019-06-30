@@ -11,6 +11,152 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+    
+    <main class="container">
+
+        <header class="header-1">
+            Computer Based General Knowledge Quiz!
+        </header>
+
+        <section class="sect-1" id="btnToDiv-1">
+            <!----Background Image Section 1----> 
+            <img class="img-1" src="assets/images/section-1.jpg" alt="blue faded lighting effects" width="718" height="1024">
+
+            <div class="div-1">
+                <h1 class="text-1">You have six minutes<br> (360 seconds)<br> to answer the questions.</h1>
+                <h1 class="text-1">Good luck!</h1>
+                <!----Button to Section 2---->
+                <button class="btn-1" onclick="window.location.href='#btnToDiv-2'"> Start!!!</button>
+            </div>
+        </section>
+
+        <section class="sect-2">
+            <!----Background Image Section 2---->
+            <img class="img-2" src="assets/images/section-2.jpg" alt="blue faded lighting effects" width="718" height="1024">
+
+            <div class="div-2" id="btnToDiv-2">
+                <!----Timer---->
+                <div class="div-2-1"> Your time ends in <span id="spnSeconds"></span> seconds. <p class="Timer"></p></div>
+
+                <!----Questions---->
+                <div class="div-2-2">
+                    <!----(Question-1) q1---->
+                    <p class="text-Q1">1) Who invented the computer?</p>
+                    <!----(Question-1 multiple choices)---->
+                    <input class="qRe" type="radio" id="q11" name="q1" value="q11">
+                    <label class="text-Q11" for="q11">Steve Wozniak</label>
+
+                    <input class="qRe" type="radio" id="q12" name="q1" value="q12">
+                    <label class="text-Q11" for="q22">Charles Babbage</label>
+
+                    <input class="qRe" type="radio" id="q13" name="q1" value="q13">
+                    <label class="text-Q11" for="q13">Bill Gates</label>
+
+                    <input class="qRe" type="radio" id="q14" name="q1" value="q14">
+                    <label class="text-Q11" for="q14">William Oughtred</label>
+
+                    <!----(Question-2) q2---->
+                    <p class="text-Q1">2) What is the first page that appears upon opening a web browser?</p>
+                    <!----(Question-2 multiple choices)---->
+                    <input class="qRe" type="radio" id="q21" name="q2" value="q21">
+                    <label class="text-Q11" for="q21">Page One</label>
+
+                    <input class="qRe" type="radio" id="q22" name="q2" value="q22">
+                    <label class="text-Q11" for="q22">Home Page</label>
+
+                    <input class="qRe" type="radio" id="q23" name="q2" value="q23">
+                    <label class="text-Q11" for="q23">Web Page</label>
+
+                    <input class="qRe" type="radio" id="q24" name="q2" value="q24">
+                    <label class="text-Q11" for="q24">Home Button</label>
+
+                    <!----(Question-3) q3---->
+                    <p class="text-Q1">3) Who invented the css?</p>
+                    <!----(Question-3 multiple choices)---->
+                    <input class="qRe" type="radio" id="q31" name="q3" value="q31">
+                    <label class="text-Q11" for="q31">Steve Wozniak</label>
+
+                    <input class="qRe" type="radio" id="q32" name="q3" value="q32">
+                    <label class="text-Q11" for="q32">Bill Gates</label>
+
+                    <input class="qRe" type="radio" id="q33" name="q3" value="q33">
+                    <label class="text-Q11" for="q33">Hakon Wium Lie</label>
+
+                    <input class="qRe" type="radio" id="q34" name="q3" value="q34">
+                    <label class="text-Q11" for="q34">Bert Bos</label>
+
+                    <!----(Question-4) q4---->
+                    <p class="text-Q1">4) Who invented the javascript programming language?</p>
+                    <!----(Question-4 multiple choices)---->
+                    <input class="qRe" type="radio" id="q41" name="q4" value="q41">
+                    <label class="text-Q11" for="q41">Douglas Crockford</label>
+
+                    <input class="qRe" type="radio" id="q42" name="q4" value="q42">
+                    <label class="text-Q11" for="q42">James Gosling</label>
+
+                    <input class="qRe" type="radio" id="q43" name="q4" value="q43">
+                    <label class="text-Q11" for="q43">Brendan Eich</label>
+
+                    <input class="qRe" type="radio" id="q44" name="q4" value="q44">
+                    <label class="text-Q11" for="q44">John Resig</label>
+                    
+                    <!----(Question-5) q5---->
+                    <p class="text-Q1">5) Who invented the world wide web?</p>
+                    <!----(Question-5 multiple choices)---->
+                    <input class="qRe" type="radio" id="q51" name="q5" value="q51">
+                    <label class="text-Q11" for="q51">Robert Cailliau</label>
+
+                    <input class="qRe" type="radio" id="q52" name="q5" value="q52">
+                    <label class="text-Q11" for="q52">Tim Berners-Lee</label>
+
+                    <input class="qRe" type="radio" id="q53" name="q5" value="q53">
+                    <label class="text-Q11" for="q53">Bert Bos</label>
+                    
+                    <input class="qRe" type="radio" id="q54" name="q5" value="q54">
+                    <label class="text-Q11" for="q54">Bill Gates</label>
+
+                    <!----(Question-6) q6---->
+                    <p class="text-Q1">6) A web site address is a unique name that identifies a specific ________ on the web.</p>
+                    <!----(Question-6 multiple choices)---->
+                    <input class="qRe" type="radio" id="q61" name="q6" value="q61">
+                    <label class="text-Q11" for="q61">Web Site</label>
+                    
+                    <input class="qRe" type="radio" id="q62" name="q6" value="q62">
+                    <label class="text-Q11" for="q62">Link</label>
+                    
+                    <input class="qRe" type="radio" id="q63" name="q6" value="q63">
+                    <label class="text-Q11" for="q63">Web Browser</label>
+                    
+                    <input class="qRe" type="radio" id="q64" name="q6" value="q64">
+                    <label class="text-Q11" for="q64">Home Button</label>
+                </div>
+
+                <!----Submit Answers---->
+                <input class="btn-2" id="btnSubmit" onclick="window.location.href='#btnToDiv-3'" type="button" value="Done">
+        
+            </div>
+        
+        </section>
+
+        <section class="sect-3">
+                <!----Background Image Section 3---->
+                <img class="img-3" src="assets/images/section-3.jpg" alt="blue faded lighting effects" width="718" height="1024">
+
+                <div class="div-3" id="btnToDiv-3">
+                    <!----Results---->
+                    <div id="log"></div>
+                    <!----Reset Button to Section-1---->
+                    <button class="btn-3" id="reset" onclick="window.location.href='#btnToDiv-1'"> Reset!!!</button>
+                </div>    
+        </section>
+    
+        <footer class="footer-1">
+    
+        </footer>
+
+    </main>
+
+    <script src="assets/javascript/game.js"></script>
 
 </body>
 </html>

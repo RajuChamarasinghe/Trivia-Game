@@ -1,0 +1,157 @@
+
+.container {
+    width: 768px;
+    height: 794px;
+}
+
+.header-1 {
+    font-family: 'Galada', cursive;
+    width: 768px;
+    height: 70px;
+    background-color: #000556;
+    position: fixed;
+    top: 0px;
+    margin: auto;
+    color: #3595f8;
+    font-size: 225%;
+    padding-top: 30px;
+    text-align: center;
+    z-index: 1;
+}
+
+.text-1 {
+    font-family: 'Galada', cursive;
+    font-size: 225%;
+    color: #000556;
+    margin-bottom: 50px;
+}
+
+.sect-1, .sect-2, .sect-3 {
+    width: 718px;
+    height: 1024px;
+    border-left: 25px solid #000556;
+    border-right: 25px solid #000556;
+
+}
+
+.img-1, .img-2, .img-3 {
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    /*background-position:100% 100%;*/
+    background-size:cover;
+}
+
+.div-1 {
+    width: 480px;
+    height: 544px;
+    top: 175px;
+    left: 144px;
+    position: absolute;
+    text-align: center;
+    font-size: 125%;
+}
+
+.btn-1 {
+    font-family: 'Galada', cursive;
+    border: 2px solid #000556;
+    background-color: inherit;
+    color: #000556;
+    padding: 14px 28px;
+    font-size: 225%;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: #000556;
+    color: #3595f8;
+}
+
+.div-2 {
+    position: absolute;
+    top: 1149px;
+    left: 20px;
+    width: 668px;
+    height: 544px;
+    padding: 125px 25px;
+}
+
+.div-2-1 {
+    font-family: 'Galada', cursive;
+    color: #e34690;
+    font-size: 125%;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #000556;
+  }
+
+.text-Q1, .text-Q11  {
+    font-family: 'Galada', cursive;
+    color: #000556;
+    font-size: 125%;
+    margin-bottom: 10px;
+}
+
+.text-Q1 {
+    margin-top: 25px;
+}
+
+.text-Q11 {
+    margin-right: 20px;
+}
+
+.div-3 {
+    font-family: 'Galada', cursive;
+    position: absolute;
+    top: 2173px;
+    width: 480px;
+    height: 544px;
+    left: 144px;
+    color: #e34690;
+    text-align: center;
+    font-size: 200%;
+    line-height: 1.6;
+    padding: 125px 25px;
+    text-shadow: 3px 3px #000556;
+}
+
+.btn-2 {
+    font-family: 'Galada', cursive;
+    border: 2px solid #000556;
+    background-color: #e34690;
+    color: #000556;
+    padding: 5px 25px;
+    font-size: 125%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-2:hover {
+    background-color: #000556;
+    color: #3595f8;
+}
+
+.btn-3 {
+    font-family: 'Galada', cursive;
+    border: 2px solid #000556;
+    background-color: #e34690;
+    color: #000556;
+    padding: 5px 25px;
+    font-size: 125%;
+    cursor: pointer;
+    display: flex; 
+    justify-content: center;
+    margin: 125px auto 0px;
+}
+
+.btn-3:hover {
+    background-color: #000556;
+    color: #3595f8;
+}
+    
+.footer-1{
+    width: 768px;
+    height: 100px;
+    background-color: #000556;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+}
